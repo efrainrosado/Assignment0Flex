@@ -1,104 +1,54 @@
-body {
+.container {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    margin: 0;
 }
 
-.header,
-.content,
-.footer {
-    display: flex;
-    flex: 1;
-}
-
-/* Header */
 .header {
     background-color: lightgray;
+    padding: 10px;
 }
 
-.menu-item {
+.menu-container {
+    display: flex;
+}
+
+.menu {
     flex: 1;
     text-align: center;
     padding: 10px;
 }
 
-.menu-item:nth-child(1) {
-    background-color: red;
-}
-
-.menu-item:nth-child(2) {
-    background-color: green;
-}
-
-.menu-item:nth-child(3) {
-    background-color: blue;
-}
-
-.menu-item:nth-child(4) {
-    background-color: orange;
-}
-
-.menu-item:nth-child(5) {
-    background-color: purple;
-}
-
-/* Content */
-.content {
-    flex: 3;
+.main {
+    display: flex;
+    flex: 1;
 }
 
 .content-column {
     flex: 1;
+    background-color: lightblue;
+    padding: 10px;
+}
+
+.sidebar {
+    flex-basis: 200px;
+    background-color: lightgreen;
     display: flex;
     flex-direction: column;
 }
 
-.left-column {
-    background-color: teal;
-}
-
-.right-column {
-    background-color: pink;
-}
-
-.right-column-item {
-    flex: 1;
-    text-align: center;
+.sidebar-row {
     padding: 10px;
 }
 
-/* Different background colors for right column items */
-.right-column-item:nth-child(1) {
-    background-color: cyan;
-}
-
-.right-column-item:nth-child(2) {
-    background-color: lime;
-}
-
-/* Add different colors for each row as needed */
-
-/* Footer */
 .footer {
-    background-color: lightcoral;
-    gap: 15px;
+    background-color: lightgray;
+    display: flex;
+    gap: 10px;
+    padding: 10px;
 }
 
 .footer-column {
     flex: 1;
     text-align: center;
-    padding: 10px;
-}
-
-.footer-column:nth-child(1) {
-    background-color: brown;
-}
-
-.footer-column:nth-child(2) {
-    background-color: yellow;
-}
-
-.footer-column:nth-child(3) {
-    background-color: violet;
 }
