@@ -14,7 +14,7 @@ body {
 
 /* Header */
 .header {
-    background-color: lightgray;
+    background-color: rgb(68, 22, 70);
 }
 
 .menu-item {
@@ -28,11 +28,11 @@ body {
 }
 
 .menu-item:nth-child(2) {
-    background-color: green;
+    background-color: rgb(224, 230, 224);
 }
 
 .menu-item:nth-child(3) {
-    background-color: blue;
+    background-color: black;
 }
 
 .menu-item:nth-child(4) {

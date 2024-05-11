@@ -46,3 +46,5 @@ One of many ... https://css-tricks.com/snippets/css/a-guide-to-flexbox/
     https://www.youtube.com/watch?v=qWL-7ih9Kw0
 - dumb example nesting:
     https://www.youtube.com/watch?v=3a_Cmh1Srok
+
+[def]: /images/borders.png
